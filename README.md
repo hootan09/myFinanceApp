@@ -22,6 +22,12 @@ https://www-iranintl-com.translate.goog/finance?_x_tr_sl=en&_x_tr_tl=fa&_x_tr_hl
 
 ## Build Helps:
 
+- ### 0 Create android folder
+
+```sh
+   npx expo prebuild
+```
+
 - ### 1 Create an upload key
 
 Inside your Expo project directory, run the following keytool command to create an upload key:
@@ -85,8 +91,6 @@ android {
 - ### 4 build and install on device
 
    ```bash
-   npx expo prebuild
-   npm run android
    cd android
    # Generate release Android Application Bundle (aab)
    ./gradlew app:bundleRelease
